@@ -1,0 +1,35 @@
+.social-icon {
+  &-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  &__space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $footer-text-color;
+    border-radius: 50%;
+    @include transitions(border-color);
+    &--dark-bgd {
+      background-color: $icon-dark-bgd-color;
+    }
+  }
+  &__svg {
+    fill: $icons-color;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    @include transitions(fill, background-color);
+    .social-icon__space:focus &,
+    &:focus,
+    &:active,
+    &:hover {
+      fill: $footer-text-color;
+      background-color: $active-link-color;
+    }
+    &--dark-bgd {
+      fill: $footer-text-color;
+    }
+  }
+}

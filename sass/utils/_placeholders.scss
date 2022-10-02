@@ -1,0 +1,7 @@
+%hover-client-logo {
+  fill: $active-link-color;
+  // border: 1px solid $active-link-color;
+  border-color: $active-link-color;
+}
+
+// @extend %hover-client-logo;

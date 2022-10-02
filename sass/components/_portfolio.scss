@@ -1,0 +1,100 @@
+.portfolio {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__filter-buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  &__boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+  }
+  &__creation-box {
+    color: $text-color;
+    text-decoration: none;
+  }
+  &__box-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 370px;
+    height: 294px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    padding-top: 49px;
+    padding-bottom: 49px;
+    padding-left: 24px;
+    padding-right: 45px;
+    color: $footer-text-color;
+    background-color: $animation-bg-color;
+    transform: translateY(105%);
+    @include transitions(transform);
+  }
+  &__box-figcaption {
+    padding: 20px 24px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    background-color: $footer-text-color;
+    z-index: 10;
+  }
+
+  &__name-of-project {
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  &__kind-of-project {
+    font-size: 16px;
+    line-height: 1.89;
+  }
+  &__filter-buttons {
+    .portfolio__filter-button {
+      // font-family: 'Roboto';
+      font-style: normal;
+      border: none;
+      background: $button-bg-color;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 1.63;
+      cursor: pointer;
+      font-weight: 500;
+      padding: 6px 22px;
+      margin: 0 4px;
+      @include transitions(color, border-color, box-shadow);
+      &:active,
+      &:focus,
+      &:hover {
+        color: $footer-text-color;
+        background-color: $active-link-color;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+          0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+      }
+    }
+  }
+  &__box-figure {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    overflow: hidden;
+    @include transitions(box-shadow);
+    &:hover,
+    &:active,
+    &:focus {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    &:hover .portfolio__box-description {
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.footer {
+  color: $footer-text-color;
+  line-height: 1.71;
+  font-weight: 400;
+  background: $addition-bg-color;
+  & .container {
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  &__address {
+    padding-top: 20px;
+    font-style: normal;
+  }
+  &__social-section {
+    margin-top: 12px;
+    margin-left: 70px;
+    width: 206px;
+    height: 136px;
+  }
+  &__form-section {
+    margin-top: 12px;
+    margin-left: 78px;
+    max-width: 600px;
+    height: 136px;
+  }
+  &__address-links {
+    .link {
+      color: $ft-contact-color;
+      line-height: 1.71;
+      @include transitions(color);
+      &:hover,
+      &:focus {
+        color: $active-link-color;
+      }
+    }
+  }
+
+  .ft-form {
+    display: flex;
+    align-items: baseline;
+    &__input {
+      width: 358px;
+      height: 50px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 4px;
+      filter: drop-shadow(0px 4px 4px $shadow-color);
+      background-color: transparent;
+      padding: 16px;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: $footer-text-color;
+      &::placeholder {
+        color: $ft-contact-color;
+      }
+    }
+    &__submit-button {
+      width: 200px;
+      height: 50px;
+      background: $active-link-color;
+      box-shadow: 0px 4px 4px $shadow-color;
+      border-radius: 4px;
+      border-color: transparent;
+      color: $footer-text-color;
+      margin-left: 12px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 0.06em;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-left: 34px;
+      cursor: pointer;
+    }
+
+    .submit-button__icon-send {
+      margin-top: 11px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

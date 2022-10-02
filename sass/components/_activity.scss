@@ -1,0 +1,32 @@
+.activity {
+  padding-top: 0;
+  & .container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__box-plaece {
+    display: flex;
+    position: relative;
+  }
+  &__box-plaece > &__signature-box {
+    position: absolute;
+    bottom: 0;
+  }
+  &__signature-box {
+    width: 370px;
+    height: 70px;
+    background-color: $activity__signature-box-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $footer-text-color;
+    padding-top: 27px;
+  }
+}
