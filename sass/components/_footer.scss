@@ -7,6 +7,10 @@
     align-items: flex-start;
     padding-top: 60px;
     padding-bottom: 60px;
+    flex-direction: column;    
+  }
+  &__address-section {
+    margin: 0 auto;
   }
   &__address {
     padding-top: 20px;
