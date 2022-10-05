@@ -1,14 +1,17 @@
 .strengths {
  &__list {
-    display: flex;
+    display: block;
     height: 100%;
+}
+&__single-box:not(last-child) {
+padding-bottom: 30px;
 }
 
 &__single-box-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 270px;
+    max-width: 450px;
     height: 120px;
     background: $button-bg-color;
     border-radius: 4px;
@@ -18,6 +21,8 @@
     font-size: 14px;
     line-height: 1.71;
     padding-top: 30px;
+    // ====mobile=====
+    text-align: center;
 }
 
 &__box-text {

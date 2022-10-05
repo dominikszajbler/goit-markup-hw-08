@@ -1,32 +1,43 @@
 .team {
-    background-color: rgba(245, 244, 250, 1);
-& .container {
+  background-color: rgba(245, 244, 250, 1);
+  & .container {
     display: flex;
     flex-direction: column;
-}
-&__list {
-    display: flex;
-    justify-content: space-between;
-}
-&__member-box {
+  }
+  &__list {
+    // display: flex;
+    display: block;
+    // justify-content: space-between;
+    
+  }
+  &__member:not(:nth-of-type(4)) {
+          padding-bottom: 30px;
+  }
+  &__member-box {
     margin: auto;
     display: flex;
     flex-flow: column;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+      0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
-&__member-label {
+
+    
+  }
+  &__member-label {
     font-size: 16px;
     line-height: 1.875;
     text-align: center;
     padding: 30px;
-    background-color: $footer-text-color;}
-&__member-name {
+    background-color: $footer-text-color;
+  }
+  &__member-name {
     font-weight: 500;
-}
-
-&__member-profession {
+  }
+  &__member-profession {
     color: $alt-text-color;
-}
+  }
+  &__member-social-icons {
+    display: flex;
+    justify-content: space-between;
+  }
 }

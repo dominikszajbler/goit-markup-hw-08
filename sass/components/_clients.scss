@@ -4,8 +4,9 @@
     flex-direction: column;
   }
   &__list {
-    display: flex;
-    justify-content: space-between;
+    // display: flex;
+    // justify-content: space-between;
+    display: block;
   }
   &__logo-icon {
     fill: $icons-color;
