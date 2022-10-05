@@ -67,7 +67,7 @@
       font-weight: 500;
       padding: 6px 22px;
       margin: 0 4px;
-      @include transitions(color, border-color, box-shadow);
+      @include transitions("color, border-color, box-shadow");
       &:active,
       &:focus,
       &:hover {

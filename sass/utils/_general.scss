@@ -7,9 +7,9 @@ body {
   text-decoration: none;
   font-family: $font-logo;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   color: rgba(0, 0, 0, 1);
-  margin-right: 47px;
+  // margin-right: 47px;
   &__first-word {
     color: $active-link-color;
   }
@@ -38,13 +38,13 @@ svg {
   fill: currentColor;
 }
 .container {
-  width: 480px;
-  min-width: 320px;
-  margin: 0 auto;
-  display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
-  border: solid 1px red;
+ width: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 15px;
+ display: flex;
+  
+  // border: solid 1px red;
 
 }
 
@@ -66,7 +66,7 @@ svg {
   text-decoration: none;
   line-height: 1.14;
   font-weight: 500;
-    @include transitions(color);
+  @include transitions(color);
   position: relative;
 
   &:hover,
@@ -74,3 +74,5 @@ svg {
     color: $active-link-color;
   }
 }
+
+

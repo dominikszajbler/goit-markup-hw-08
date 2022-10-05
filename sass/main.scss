@@ -1,7 +1,7 @@
-@import 'utils/media';
+
+@import 'utils/mixins';
 @import 'utils/variables';
 @import 'utils/general';
-@import 'utils/mixins';
 @import 'components/social-icons-box';
 @import 'components/header';
 @import 'components/order-buttonfield';
@@ -13,3 +13,4 @@
 @import 'components/footer';
 @import 'components/order-the-service';
 @import 'utils/placeholders';
+@import 'utils/media';

@@ -4,7 +4,9 @@
   & .container {
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    // mobile
+    height: 60px;
+    // height:80px;======desktop
   }
 
   &__navi {
@@ -16,7 +18,8 @@
     color: $active-link-color;
   }
   &__navi-tabs {
-    display: flex;
+    // display: flex; no-mobile
+    display: none;
     padding: 23px;
     position: relative;
     .link {
@@ -45,7 +48,8 @@
     }
   }
   &__contacts {
-    display: flex;
+    // display: flex; no-mobile
+    display: none;
     align-items: baseline;
     .link {
       color: $alt-text-color;
@@ -66,4 +70,17 @@
       fill: $active-link-color;
     }
   }
+  &__mobile-menu-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+ }
+
+  &__mobile-menu {
+  //   @include transitions(fill);
+  // &:hover,
+  // &:focus {
+   fill: $active-link-color;
 }
+}
+fill-rule="evenodd" clip-rule="evenodd"

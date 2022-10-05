@@ -167,7 +167,7 @@
     border-radius: 2px;
     //   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1),
     //     background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    @include transitions(outline, background-image);
+    @include transitions("outline, background-image");
     cursor: pointer;
     &:checked {
       background-color: $active-link-color;
