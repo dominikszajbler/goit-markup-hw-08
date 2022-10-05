@@ -342,7 +342,10 @@ svg {
   flex-direction: column;
 }
 .clients__list {
-  display: block;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .clients__logo-icon {
   fill: rgb(175, 177, 184);
