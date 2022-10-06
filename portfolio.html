@@ -28,11 +28,11 @@
 
           <ul class="header__navi-tabs">
             <li class="header__navi-tab">
-              <a class="header__tab link" href="index.html">Agencja</a>
+              <a class="header__tab header__tab--viewed link" href="index.html">Agencja</a>
             </li>
 
             <li class="header__navi-tab">
-              <a class="header__tab header__tab--viewed link" href="portfolio.html">Portfolio</a>
+              <a class="header__tab link" href="portfolio.html">Portfolio</a>
             </li>
 
             <li class="header__navi-tab">
@@ -62,6 +62,61 @@
             >
           </li>
         </ul>
+        <button
+          class="header__mobile-menu-button js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="header__mobile-menu" width="40" height="40">
+            <use href="./images/icons.svg#menu_40px"></use>
+          </svg>
+        </button>
+        <!-- ------------------------mobile-menu-------------- -->
+        <div class="mobile-menu__container js-menu-container" id="mobile-menu">
+          <button class="mobile-menu__menu-toggle js-close-menu">
+            <svg class="js-close-menu--svg" width="40" height="40">
+              <use href="./images/icons.svg#close_40px"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu__space">
+            <ul class="mobile-menu__navi-tabs">
+              <li class="mobile-menu__navi-tab">
+                <a class="mobile-menu__tab link" href="index.html">Agencja</a>
+              </li>
+
+              <li class="mobile-menu__navi-tab">
+                <a class="mobile-menu__tab link" href="portfolio.html">Portfolio</a>
+              </li>
+
+              <li class="mobile-menu__navi-tab">
+                <a class="mobile-menu__tab link" href="#">Kontakt</a>
+              </li>
+            </ul>
+            <div>
+            <ul class="mobile-menu__contacts">
+              <li class="mobile-menu__contact mobile-menu__contact--phone">
+                <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+              </li>
+              <li class="mobile-menu__contact mobile-menu__contact--email">
+                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu__socials">
+              <li class="mobile-menu__social-link">
+                <a class="link" href="#">Instagram</a>
+              </li>
+              <li class="mobile-menu__social-link">
+                <a class="link" href="#">Twitter</a>
+              </li>
+              <li class="mobile-menu__social-link">
+                <a class="link" href="#">Facebook</a>
+              </li>
+              <li class="mobile-menu__social-link">
+                <a class="link" href="#">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -272,7 +327,7 @@
     <footer class="footer">
       <div class="footer__container container">
         <div class="footer__address-section">
-          <h3 class="footer__comp-name">
+          <h3 class="footer__comp">
             <a class="comp-name footer__comp-name" href="index.html"
               ><span class="comp-name__first-word">Web</span
               ><span class="comp-name__second-word comp-name__second-word--dark-bgd"
@@ -343,5 +398,12 @@
         </div>
       </div>
     </footer>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>

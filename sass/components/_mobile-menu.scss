@@ -42,10 +42,12 @@
 //   list-style: none;
 // }
 
-// @media (max-width: 767px) {
-//   .menu {
-//     display: none;
-//   }
+@media (max-width: 767px) {
+  .js-menu-container,
+  .mobile-menu__container
+   {
+    display: none;
+  }
 // }
 
 // .menu .link {
@@ -137,7 +139,7 @@
         color: $active-link-color;
   }
 }
-}
+}}
 // .mobile-menu {
 //   padding: 0;
 //   margin: 0;
