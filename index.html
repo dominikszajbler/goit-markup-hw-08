@@ -62,11 +62,57 @@
             >
           </li>
         </ul>
-        <button class="header__mobile-menu-button" type="button">
+       <button class="header__mobile-menu-button js-open-menu" aria-expanded="false"
+          aria-controls="mobile-menu">
           <svg class="header__mobile-menu" width="40" height="40">
             <use href="./images/icons.svg#menu_40px"></use>
           </svg>
         </button>
+       <!-- ------------------------mobile-menu-------------- -->
+    <!-- <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg width="40" height="40">
+            <use href="./images/icons.svg#close_40px"></use>
+          </svg>
+      </button> -->
+
+      <!-- <ul class="mobile-menu">
+        <ul class="header__navi-tabs">
+            <li class="header__navi-tab">
+              <a class="header__tab header__tab--viewed link" href="index.html">Agencja</a>
+            </li>
+
+            <li class="header__navi-tab">
+              <a class="header__tab link" href="portfolio.html">Portfolio</a>
+            </li>
+
+            <li class="header__navi-tab">
+              <a class="header__tab link" href="#">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="header__contacts">
+          <li class="header__contact header__contact--email">
+            <a class="link" href="mailto:info@devstudio.com">
+              <span>
+                <svg class="header__contact-icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+              </span>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="header__contact header__contact--phone">
+            <a class="link" href="tel:+48111111111"
+              ><span>
+                <svg class="header__contact-icon" width="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg> </span
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul> 
+      </ul> -->
+    </div>
       </div>
     </header>
 
@@ -555,6 +601,7 @@
         </form>
       </div>
     </div>
+    
     <script src="./js/modal.js"></script>
     <script
       defer
