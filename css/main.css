@@ -457,26 +457,43 @@ svg {
   background: rgb(47, 48, 58);
 }
 .footer .container {
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
-  flex-direction: column;
 }
 .footer__address-section {
   margin: 0 auto;
+  padding-bottom: 60px;
+}
+.footer__comp {
+  display: flex;
+  justify-content: center;
 }
 .footer__address {
   padding-top: 20px;
   font-style: normal;
 }
 .footer__social-section {
-  margin-top: 12px;
-  margin-left: 70px;
-  width: 206px;
-  height: 136px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.footer__social-icons {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
 }
 .footer__form-section {
   max-width: 600px;
+}
+.footer__address-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footer__address-links .link {
   color: rgba(255, 255, 255, 0.6);

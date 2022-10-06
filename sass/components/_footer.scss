@@ -3,24 +3,44 @@
   line-height: 1.71;
   font-weight: 400;
   background: $addition-bg-color;
+ 
+
   & .container {
-    align-items: flex-start;
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+   margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 60px;
-    flex-direction: column;    
+    
   }
   &__address-section {
     margin: 0 auto;
+    padding-bottom: 60px;
+  }
+  &__comp {
+   display: flex;
+   justify-content: center;
   }
   &__address {
     padding-top: 20px;
     font-style: normal;
   }
   &__social-section {
-    margin-top: 12px;
-    margin-left: 70px;
-    width: 206px;
-    height: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // margin-top: 12px;
+    // margin-left: 70px;
+    // width: 206px;
+    // height: 136px;
+    padding-bottom: 60px;
+  }
+  &__social-icons {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+
   }
   &__form-section {
     // margin-top: 12px;
@@ -29,7 +49,10 @@
     // height: 136px;
   }
   &__address-links {
-    .link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & .link {
       color: $ft-contact-color;
       line-height: 1.71;
       @include transitions(color);
