@@ -2,19 +2,25 @@
  &__list {
     display: block;
     height: 100%;
+    margin: 0 auto;
 }
-&__single-box:not(last-child) {
+&__single-box {
+max-width: 450px;
+&:not(last-child) {
 padding-bottom: 30px;
+}
 }
 
 &__single-box-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 450px;
     height: 120px;
     background: $button-bg-color;
     border-radius: 4px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 &__box-header {
