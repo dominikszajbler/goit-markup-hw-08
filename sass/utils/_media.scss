@@ -11,7 +11,10 @@
    {
     display: flex;}
   .header__contacts {
-    display: flex;
+    display: block;
+  }
+  .header__contact {
+    margin: 5px auto;
   }
   .header .container {
     height:80px;
@@ -35,7 +38,11 @@
   .order-buttonfield{
     min-height: 600px;
   }
+  .header__contacts {
+    display: flex;
+  }
 }
+
 // @media screen and (min-width: 768px) {
 //   .header__navi-tabs
 //    {

@@ -855,7 +855,10 @@ img {
     display: flex;
   }
   .header__contacts {
-    display: flex;
+    display: block;
+  }
+  .header__contact {
+    margin: 5px auto;
   }
   .header .container {
     height: 80px;
@@ -876,5 +879,8 @@ img {
 @media screen and (min-width: 1200px) {
   .order-buttonfield {
     min-height: 600px;
+  }
+  .header__contacts {
+    display: flex;
   }
 }/*# sourceMappingURL=main.css.map */
