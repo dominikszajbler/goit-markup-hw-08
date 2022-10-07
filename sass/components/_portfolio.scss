@@ -5,11 +5,12 @@
   }
   &__filter-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-bottom: 50px;
-  }
-
-  &__boxes {
+    flex-wrap: wrap;
+     }
+  
+     &__boxes {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -66,7 +67,7 @@
       cursor: pointer;
       font-weight: 500;
       padding: 6px 22px;
-      margin: 0 4px;
+      margin: 7px 4px;
       @include transitions("color, border-color, box-shadow");
       &:active,
       &:focus,

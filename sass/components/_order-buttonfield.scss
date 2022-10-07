@@ -4,16 +4,23 @@
     url('../images/img_background.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  background-size: cover;
   max-width: 1600px;
-  margin: 0 auto;
+  // -----mobile, tablet-----
+  min-height: 400px;
+  // ------desktop-----
+  // max-height: 600px;
+  display: flex;
+  align-content: center;
 
   & .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: auto;
     // padding-top: 106px;
     // padding-bottom: 106px;
-    padding: 118px 57px;
+    // padding: 118px 57px;
   }
 
   &__head {
