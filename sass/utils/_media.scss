@@ -44,6 +44,15 @@
         url('../images/img_background_tablet@2x.jpg 2x');
     }
   }
+  .footer .container {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .footer__address-section {
+     padding-right: 144px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .order-buttonfield {
@@ -67,6 +76,16 @@
   .activity {
     display: block;
   }
+  .footer__form-section{
+    align-items: flex-start;
+  }
+  .ft-form {
+    flex-direction: row;
+    max-width: 600px;
+  }
+  .ft-form__input, .ft-form__label {
+    max-width: 358px;
+  }
   .order-buttonfield {
     background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
       url('../images/img_background.jpg');
@@ -77,9 +96,8 @@
         url('../images/img_background@2x.jpg 2x');
     }
   }
-  .ft-form {
-    max-width: 358px;
-  }
+  
+
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {

@@ -15,8 +15,8 @@
     
   }
   &__address-section {
-    margin: 0 auto;
-    padding-bottom: 60px;
+     padding-bottom: 60px;
+     
   }
   &__comp {
    display: flex;
@@ -71,17 +71,20 @@
     display: flex;
     flex-direction: column;
     // align-items: baseline;
+    justify-content: center;
     align-items: center;
     width: 100%;
     min-width: 310px;
-    max-width: 450px;
+    // max-width: 450px;
     &__label{
       width: 100%;
       margin-bottom: 20px;
+      
     }
     
     &__input {
       width: 100%;
+      max-width: 450px;
       height: 50px;
       border: 1px solid rgba(255, 255, 255, 0.3);
       border-radius: 4px;
