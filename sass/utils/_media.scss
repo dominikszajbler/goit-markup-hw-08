@@ -47,9 +47,9 @@
     flex-basis: calc((100% - 90px) / 4);
     justify-content: space-between;
   }
-.team__list {
+.team__list, .clients__list
+ {
     display:flex;
-    justify-content: space-between;
     flex-wrap: nowrap;
 }
   
