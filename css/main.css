@@ -918,6 +918,20 @@ img {
   .header__contacts {
     display: flex;
   }
+  .order-the-service__modal {
+    max-width: 528px;
+    min-height: 581px;
+  }
+  .order-the-service__input, .order-the-service__textarea {
+    max-width: 448px;
+  }
+  .order-the-service__checkbox {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .order-the-service__checkbox-input {
+    top: 4px;
+  }
   .strengths__single-box,
 .team__memeber-box {
     max-width: 270px;
