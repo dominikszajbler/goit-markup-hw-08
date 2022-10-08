@@ -59,7 +59,12 @@
   .footer__address-section {
      padding-right: 144px;
   }
+  
 }
+
+// ============desktop======================
+
+
 @media screen and (min-width: 1200px) {
   .order-buttonfield {
     min-height: 600px;
@@ -109,7 +114,17 @@
      flex-direction: column;
      align-items: flex-start;
   }
-  
+  .footer__address-links, .footer__social-section, .footer__form-section {
+    align-items: flex-start;
+  }
+  .ft-form__input {
+    max-width: 358px;
+}
+.ft-form {
+align-items: flex-start;
+}
+
+
   // .footer .container {
   //   flex-direction: row;
   //     }
@@ -120,9 +135,8 @@
   //   flex-direction: row;
   //   max-width: 600px;
   // }
-  // .ft-form__input, .ft-form__label {
-  //   max-width: 358px;
-  }
+  
+  
   .order-buttonfield {
     background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
       url('../images/img_background.jpg');
@@ -143,7 +157,7 @@
       url('../images/img_background_mobile@2x.jpg 2x');
   }
 }
-
+}
 // @media screen and (min-width: 768px) {
 //   .header__navi-tabs
 //    {
