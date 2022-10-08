@@ -53,6 +53,7 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   display: flex;
+  border: solid 1px red;
 }
 
 .section {
@@ -216,7 +217,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
+  margin: 0 auto;
 }
 .order-buttonfield__head {
   font-style: normal;
