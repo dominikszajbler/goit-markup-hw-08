@@ -3,6 +3,8 @@
     display: block;
     height: 100%;
     margin: 0 auto;
+    
+    
 }
 &__single-box {
 max-width: 450px;
@@ -19,9 +21,8 @@ padding-bottom: 30px;
     background: $button-bg-color;
     border-radius: 4px;
     margin: 0 auto;
-    flex-wrap: wrap;
-    gap: 30px;
-}
+    
+    }
 
 &__box-header {
     font-size: 14px;

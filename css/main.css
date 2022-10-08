@@ -267,8 +267,6 @@ img {
   background: rgb(245, 244, 250);
   border-radius: 4px;
   margin: 0 auto;
-  flex-wrap: wrap;
-  gap: 30px;
 }
 .strengths__box-header {
   font-size: 14px;
@@ -871,6 +869,7 @@ img {
   }
   .strengths__single-box, .team__memeber-box {
     width: 354px;
+    flex-basis: calc((100% - 30px) / 2);
   }
   .portfolio__filter-buttons {
     justify-content: center;
@@ -882,5 +881,18 @@ img {
   }
   .header__contacts {
     display: flex;
+  }
+  .strengths__single-box, .team__memeber-box {
+    max-width: 270px;
+    flex-basis: calc((100% - 90px) / 4);
+    justify-content: space-between;
+  }
+  .team__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .activity {
+    display: block;
   }
 }/*# sourceMappingURL=main.css.map */

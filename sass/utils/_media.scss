@@ -28,6 +28,7 @@
   }
   .strengths__single-box, .team__memeber-box {
     width: 354px;
+    flex-basis: calc((100% - 30px) / 2);
   }
   .portfolio__filter-buttons{
     justify-content: center;
@@ -40,6 +41,20 @@
   }
   .header__contacts {
     display: flex;
+  }
+  .strengths__single-box, .team__memeber-box {
+    max-width: 270px;
+    flex-basis: calc((100% - 90px) / 4);
+    justify-content: space-between;
+  }
+.team__list {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+  
+  .activity {
+    display: block;
   }
 }
 
