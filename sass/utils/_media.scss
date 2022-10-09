@@ -22,11 +22,11 @@
     flex-wrap: wrap;
     gap: 30px;
   }
-  .strengths__single-box,
-  .team__member-box {
-    width: 354px;
-    // flex-basis: calc((100% - 30px) / 2);
-  }
+    // .strengths__single-box,
+    // .team__member-box {
+    //   // width: 354px;
+    //   // flex-basis: calc((100% - 30px) / 2);
+    // }
   .team__member, .strengths__single-box {
     flex-basis: calc((100% - 30px) / 2);
   }
@@ -35,6 +35,9 @@
   }
   .portfolio__filter-buttons {
     justify-content: center;
+  }
+  .portfolio__box {
+     flex-basis: calc(50% - 15px);
   }
   .potfolio__boxes {
     display: flex;
