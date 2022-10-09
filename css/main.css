@@ -931,7 +931,8 @@ img {
     max-width: 528px;
     min-height: 581px;
   }
-  .order-the-service__input, .order-the-service__textarea {
+  .order-the-service__input,
+.order-the-service__textarea {
     max-width: 448px;
   }
   .order-the-service__checkbox {
@@ -967,7 +968,9 @@ img {
     flex-direction: column;
     align-items: flex-start;
   }
-  .footer__address-links, .footer__social-section, .footer__form-section {
+  .footer__address-links,
+.footer__social-section,
+.footer__form-section {
     align-items: flex-start;
   }
   .ft-form__input {
