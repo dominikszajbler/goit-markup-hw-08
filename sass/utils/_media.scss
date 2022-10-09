@@ -28,7 +28,7 @@
     flex-basis: calc((100% - 30px) / 2);
   }
   .clients__icon {
-    flex-basis: calc((100% - 60px)/3)
+    flex-basis: calc((100% - 60px) / 3);
   }
   .portfolio__filter-buttons {
     justify-content: center;
@@ -117,7 +117,7 @@
   .footer__form-section {
     align-items: flex-start;
   }
- .footer .ft-form__input {
+  .footer .ft-form__input {
     width: 358px;
   }
   .footer .ft-form {
@@ -125,14 +125,14 @@
     align-items: flex-start;
     justify-content: space-between;
   }
-.footer .ft-form__label {
-  flex-direction: row;
-  align-items:flex-start;
-  width: auto;
-}
-.footer .ft-form__submit-button{
-  margin-top: 20px;
-}
+  .footer .ft-form__label {
+    flex-direction: row;
+    align-items: flex-start;
+    width: auto;
+  }
+  .footer .ft-form__submit-button {
+    margin-top: 20px;
+  }
   // .footer .container {
   //   flex-direction: row;
   //     }
