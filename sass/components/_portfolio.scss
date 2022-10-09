@@ -8,19 +8,18 @@
     justify-content: flex-start;
     padding-bottom: 50px;
     flex-wrap: wrap;
-     }
-  
-     &__boxes {
-     display: flex;
+  }
+
+  &__boxes {
+    display: flex;
     flex-wrap: wrap;
     gap: 30px;
     padding: 0;
   }
- 
+
   &__creation-box {
     color: $text-color;
     text-decoration: none;
-    
   }
   &__box-description {
     position: absolute;
@@ -72,7 +71,7 @@
       font-weight: 500;
       padding: 6px 22px;
       margin: 7px 4px;
-      @include transitions("color, border-color, box-shadow");
+      @include transitions('color, border-color, box-shadow');
       &:active,
       &:focus,
       &:hover {

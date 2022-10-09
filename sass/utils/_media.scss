@@ -57,13 +57,11 @@
     align-items: flex-start;
   }
   .footer__address-section {
-     padding-right: 144px;
+    padding-right: 144px;
   }
-  
 }
 
 // ============desktop======================
-
 
 @media screen and (min-width: 1200px) {
   .order-buttonfield {
@@ -76,12 +74,13 @@
     max-width: 528px;
     min-height: 581px;
   }
-  .order-the-service__input, .order-the-service__textarea {
-   max-width: 448px; 
+  .order-the-service__input,
+  .order-the-service__textarea {
+    max-width: 448px;
   }
   .order-the-service__checkbox {
-   font-size: 14px;
-   line-height: 24px;
+    font-size: 14px;
+    line-height: 24px;
   }
   .order-the-service__checkbox-input {
     top: 4px;
@@ -102,28 +101,29 @@
     display: block;
   }
 
-.footer .container {
+  .footer .container {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: flex-start;
-}
-    .footer__address-section {
-     padding-right: 0;
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start;
   }
-  .footer__address-links, .footer__social-section, .footer__form-section {
+  .footer__address-section {
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer__address-links,
+  .footer__social-section,
+  .footer__form-section {
     align-items: flex-start;
   }
   .ft-form__input {
     max-width: 358px;
-}
-.ft-form {
-align-items: flex-start;
-}
-
+  }
+  .ft-form {
+    align-items: flex-start;
+  }
 
   // .footer .container {
   //   flex-direction: row;
@@ -135,8 +135,7 @@ align-items: flex-start;
   //   flex-direction: row;
   //   max-width: 600px;
   // }
-  
-  
+
   .order-buttonfield {
     background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
       url('../images/img_background.jpg');
@@ -147,20 +146,11 @@ align-items: flex-start;
         url('../images/img_background@2x.jpg 2x');
     }
   }
-  
 
-
-
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .order-buttonfield {
-    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
-      url('../images/img_background_mobile@2x.jpg 2x');
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .order-buttonfield {
+      background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
+        url('../images/img_background_mobile@2x.jpg 2x');
+    }
   }
 }
-}
-// @media screen and (min-width: 768px) {
-//   .header__navi-tabs
-//    {
-//     display: flex;
-//   }
-// }

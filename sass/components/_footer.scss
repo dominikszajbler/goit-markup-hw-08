@@ -3,27 +3,23 @@
   line-height: 1.71;
   font-weight: 400;
   background: $addition-bg-color;
- 
 
   & .container {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-   margin: 0 auto;
+    margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 60px;
-    
-    
   }
 
   &__address-section {
-     padding-bottom: 60px;
+    padding-bottom: 60px;
     //  border: solid 1px red;
-     
   }
   &__comp {
-   display: flex;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
   }
   &__address {
     padding-top: 20px;
@@ -44,13 +40,12 @@
     display: flex;
     margin-top: 20px;
     gap: 10px;
-
   }
   &__form-section {
     // margin-top: 12px;
     // margin-left: 78px;
     width: 100%;
-  max-width: 600px;
+    max-width: 600px;
     // height: 136px;
     display: flex;
     flex-direction: column;
@@ -81,14 +76,14 @@
     width: 100%;
     min-width: 310px;
     // max-width: 450px;
-    &__label{
+    &__label {
       width: 100%;
       margin-bottom: 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-    
+
     &__input {
       width: 100%;
       max-width: 450px;

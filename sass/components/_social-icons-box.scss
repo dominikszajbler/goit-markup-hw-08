@@ -20,7 +20,7 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    @include transitions("fill, background-color");
+    @include transitions('fill, background-color');
     .social-icon__space:focus &,
     &:focus,
     &:active,

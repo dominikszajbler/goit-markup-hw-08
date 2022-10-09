@@ -71,18 +71,16 @@
     }
   }
   &__mobile-menu-button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
- }
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
 
   &__mobile-menu {
-    
     @include transitions(fill);
-  &:hover,
-  &:focus {
-   fill: $active-link-color;
+    &:hover,
+    &:focus {
+      fill: $active-link-color;
+    }
+  }
 }
-}
-}
-// fill-rule="evenodd" clip-rule="evenodd"

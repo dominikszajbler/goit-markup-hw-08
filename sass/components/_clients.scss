@@ -2,7 +2,6 @@
   & .container {
     display: flex;
     flex-direction: column;
-
   }
   &__list {
     display: flex;
@@ -17,7 +16,7 @@
     padding: 15px 31px;
     border: 1px solid $icons-color;
     border-radius: 4px;
-    @include transitions("fill, border");
+    @include transitions('fill, border');
     &:hover,
     &:active,
     &:focus {

@@ -45,15 +45,14 @@ img {
 }
 
 .container {
- width: 100%;
- min-width: 305px;
- max-width: 1200px;
- margin: 0 auto;
- padding: 0 15px;
- display: flex;
-  
-  // border: solid 1px red;
+  width: 100%;
+  min-width: 305px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
 
+  // border: solid 1px red;
 }
 
 .section {
@@ -84,5 +83,3 @@ img {
     color: $active-link-color;
   }
 }
-
-
