@@ -117,13 +117,22 @@
   .footer__form-section {
     align-items: flex-start;
   }
-  .ft-form__input {
-    max-width: 358px;
+ .footer .ft-form__input {
+    width: 358px;
   }
-  .ft-form {
+  .footer .ft-form {
+    flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
   }
-
+.footer .ft-form__label {
+  flex-direction: row;
+  align-items:flex-start;
+  width: auto;
+}
+.footer .ft-form__submit-button{
+  margin-top: 20px;
+}
   // .footer .container {
   //   flex-direction: row;
   //     }
