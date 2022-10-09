@@ -61,59 +61,62 @@
         <button
           class="header__mobile-menu-button js-open-menu"
           aria-expanded="false"
-          aria-controls="mobile-menu"        >
+          aria-controls="mobile-menu"
+        >
           <svg class="header__mobile-menu" width="40" height="40">
             <use href="./images/icons.svg#menu_40px"></use>
           </svg>
         </button>
-                   <!-- ------------------------mobile-menu-------------- -->
-        <div class="mobile-menu__container js-menu-container" id="mobile-menu">
-          <button class="mobile-menu__menu-toggle js-close-menu">
-            <svg class="mobile-menu__menu-toggle--svg" width="40" height="40">
-              <use href="./images/icons.svg#close_40px"></use>
-            </svg>
-          </button>
-          <div class="mobile-menu__space">
-            <ul class="mobile-menu__navi-tabs">
-              <li class="mobile-menu__navi-tab">
-                <a class="mobile-menu__tab link" href="index.html">Agencja</a>
-              </li>
-
-              <li class="mobile-menu__navi-tab">
-                <a class="mobile-menu__tab link" href="portfolio.html">Portfolio</a>
-              </li>
-
-              <li class="mobile-menu__navi-tab">
-                <a class="mobile-menu__tab link" href="#">Kontakt</a>
-              </li>
-            </ul>
-            <div>
-            <ul class="mobile-menu__contacts">
-              <li class="mobile-menu__contact mobile-menu__contact--phone">
-                <a class="link" href="tel:+48111111111">+48 111 111 111</a>
-              </li>
-              <li class="mobile-menu__contact mobile-menu__contact--email">
-                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-            </ul>
-            <ul class="mobile-menu__socials">
-              <li class="mobile-menu__social-link">
-                <a class="link" href="#">Instagram</a>
-              </li>
-              <li class="mobile-menu__social-link">
-                <a class="link" href="#">Twitter</a>
-              </li>
-              <li class="mobile-menu__social-link">
-                <a class="link" href="#">Facebook</a>
-              </li>
-              <li class="mobile-menu__social-link">
-                <a class="link" href="#">LinkedIn</a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </header>
+    <div class="mobile-menu">
+      <div class="mobile-menu__container js-menu-container" id="mobile-menu">
+        <button class="mobile-menu__menu-toggle js-close-menu">
+          <svg class="mobile-menu__menu-toggle--svg" width="40" height="40">
+            <use href="./images/icons.svg#close_40px"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu__space">
+          <ul class="mobile-menu__navi-tabs">
+            <li class="mobile-menu__navi-tab">
+              <a class="mobile-menu__tab link" href="index.html">Agencja</a>
+            </li>
+
+            <li class="mobile-menu__navi-tab">
+              <a class="mobile-menu__tab link" href="portfolio.html">Portfolio</a>
+            </li>
+
+            <li class="mobile-menu__navi-tab">
+              <a class="mobile-menu__tab link" href="#">Kontakt</a>
+            </li>
+          </ul>
+          <!-- <div> -->
+          <ul class="mobile-menu__contacts">
+            <li class="mobile-menu__contact mobile-menu__contact--phone">
+              <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
+            <li class="mobile-menu__contact mobile-menu__contact--email">
+              <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+          <ul class="mobile-menu__socials">
+            <li class="mobile-menu__social-link">
+              <a class="link" href="#">Instagram</a>
+            </li>
+            <li class="mobile-menu__social-link">
+              <a class="link" href="#">Twitter</a>
+            </li>
+            <li class="mobile-menu__social-link">
+              <a class="link" href="#">Facebook</a>
+            </li>
+            <li class="mobile-menu__social-link">
+              <a class="link" href="#">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- </header> -->
     <main class="main-sections">
       <section class="order-buttonfield section">
         <div class="order-buttonfield__container container">
@@ -188,7 +191,6 @@
                   alt="tworzymy aplikacje komputerowe"
                   src="images/01tablet.jpg"
                   srcset="images/01tablet@2x.jpg 2x"
-                  
                 />
                 <div class="activity__signature-box">
                   <p class="activity__signature">Aplikacje komputerowe</p>
@@ -202,7 +204,6 @@
                   alt="tworzymy aplikacje mobilne"
                   src="images/02smartphone.jpg"
                   srcset="images/02smartphone@2x.jpg 2x"
-                  
                 />
                 <div class="activity__signature-box">
                   <p class="activity__signature">Aplikacje mobilne</p>
@@ -216,7 +217,6 @@
                   alt="tworzymy rozwiązania graficzne"
                   src="images/03tabletcolor.jpg"
                   srcset="images/03tabletcolor@2x.jpg 2x"
-                 
                 />
                 <div class="activity__signature-box">
                   <p class="activity__signature">Rozwiązania graficzne</p>
@@ -281,7 +281,6 @@
                   alt="John Doe Frontend Developer"
                   src="images/12she-blond.jpg"
                   srcset="images/12she-blond@2x.jpg 2x"
-                  
                 />
                 <figcaption class="team__member-label">
                   <h4 class="team__member-name">John Doe</h4>
@@ -326,7 +325,7 @@
                   alt="John Doe Marketing"
                   src="images/13he-blue.jpg"
                   srcset="images/13he-blue@2x.jpg 2x"
-                  />
+                />
                 <figcaption class="team__member-label">
                   <h4 class="team__member-name">John Doe</h4>
                   <p class=".team__member-profession">Marketing</p>
@@ -367,9 +366,9 @@
               <figure class="team__member-box">
                 <img
                   class="team__member-img team__member-img--14he-black"
-                   alt="John Doe UI Designer"
-                   src="images/14he-black.jpg"
-                   srcset="images/14he-black@2x.jpg 2x"
+                  alt="John Doe UI Designer"
+                  src="images/14he-black.jpg"
+                  srcset="images/14he-black@2x.jpg 2x"
                 />
                 <figcaption class="team__member-label">
                   <h4 class="team__member-name">John Doe</h4>
