@@ -27,6 +27,9 @@
     width: 354px;
     flex-basis: calc((100% - 30px) / 2);
   }
+  .clients__icon {
+    flex-basis: calc((100% - 60px)/3)
+  }
   .portfolio__filter-buttons {
     justify-content: center;
   }
