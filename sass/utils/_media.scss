@@ -25,6 +25,9 @@
   .strengths__single-box,
   .team__member-box {
     width: 354px;
+    // flex-basis: calc((100% - 30px) / 2);
+  }
+  .team__member, .strengths__single-box {
     flex-basis: calc((100% - 30px) / 2);
   }
   .clients__icon {
