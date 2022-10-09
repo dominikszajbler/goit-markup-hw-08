@@ -512,7 +512,7 @@ img {
 }
 .footer__form-section {
   width: 100%;
-  max-width: 600px;
+  max-width: 570px;
   display: flex;
   flex-direction: column;
   align-items: center;
